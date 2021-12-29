@@ -1,1 +1,5 @@
-"web:gunicorn tngh.wsgi"
+release: python3 src/manage.py makemigrations && python3 src/manage.py migrate 
+web:gunicorn  --tngh src config.wsgi --log-file -
+
+
+
