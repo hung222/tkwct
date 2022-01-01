@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-2dv&5++fqo6co+9ltpw$@wm=$zh23ky1kvc&(r&3gf5!ekbz9u
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.herokuapp.com']
+ALLOWED_HOSTS = ['dry-ravine-71832.herokuapp.com']
 
 
 # Application definition
@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'tngh.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.'postgresql',
-        'NAME':  'postgresql-parallel-92590/ttydf',
+        'NAME':  'd1d7i2e7ie485f',
         'pass':'poiuytre1234!@',
-        'host':'ec2-54-144-165-97.compute-1.amazonaws.com',
-        'user':'tvswggackrdayo',
-        port:'5340',
+        'host':'ec2-34-236-87-247.compute-1.amazonaws.com',
+        'user':'zcmomryxcwiacj',
+        'port':'5432',
     }
 }
 
@@ -124,7 +124,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 PROJECT_ROOT   =   os.path.join(os.path.abspath(__file__))
 STATIC_ROOT  =   os.path.join(tngh, 'staticfiles')
-STATIC_URL = 'http://www.ry-revine-87231.herokuapp.com/static/'
+STATIC_URL = 'http://www.dry-revine-71832.herokuapp.com/static/'
 
 # Extra lookup directories for collectstatic to find static files
 STATICFILES_DIRS = (
@@ -132,7 +132,7 @@ STATICFILES_DIRS = (
 )
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_URL = 'http://www.ry-revine-87231.herokuapp.com/static/'
+STATIC_URL = 'http://www.dry-revine-71832.herokuapp.com/static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
