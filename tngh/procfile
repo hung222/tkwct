@@ -1,4 +1,4 @@
-web: gunicorn tngh.wsgi  --log-file
+web:gunicorn tngh.wsgi --log-file
 
 
 
