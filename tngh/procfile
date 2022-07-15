@@ -1,4 +1,0 @@
-web:gunicorn tngh.wsgi --log-file
-
-
-
